@@ -17,6 +17,7 @@ Therefore, all this files contain identical code points.
 
 These files have been created:
 
+- utf8-bom.txt    (UTF8 with Byte Order Mark - byte by byte identical to original file)
 - utf16le.txt     (UTF16 in little endian without Byte Order Mark)
 - utf16le-bom.txt (UTF16 in little endian with Byte Order Mark)
 - utf16be.txt     (UTF16 in big endian without Byte Order Mark)
