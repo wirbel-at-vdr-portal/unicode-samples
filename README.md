@@ -27,6 +27,8 @@ These files have been created:
 - utf32be.txt     (UTF32 in big endian without Byte Order Mark)
 - utf32be-bom.txt (UTF32 in big endian with Byte Order Mark)
 
+If any of this files is converted to UTF8 back again, the CRC32 using
+0x04C11DB7 polynom should be 0x113CC8E0 for those files (any BOM skipped).
 
 'le'  stands for little endian
 'be'  stands for big endian
