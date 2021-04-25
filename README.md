@@ -40,4 +40,29 @@ help to test unicode tools.
 The original author didn't choose any license on his file,
 so feel free to use it.
 
+
+
+Additionally, for testing of Unicode Encoding detection algorithms,
+these files have been created by me:
+- utf8-any-bom.txt
+- utf8-any.txt
+- utf16be-any-bom.txt
+- utf16be-any.txt
+- utf16le-any-bom.txt
+- utf16le-any.txt
+- utf32be-any-bom.txt
+- utf32be-any.txt
+- utf32le-any-bom.txt
+- utf32le-any.txt
+
+These files contain - in ascending order - the following Unicode code points:
+- U+0020..U+007E (7bit ASCII, no control chars)
+- U+0080..U+10FFFF, except
+   - U+0A00  (no code point)
+   - U+D800..U+DFFF (high/low surrogates)
+   - U+FFFE..U+FFFF (no code point)
+Every few chars, a newline '\n' is added for readability.
+If those files are converted back to UTF8, the expected CRC32 is 0x926B6EAE.
+
+
 --wirbel
